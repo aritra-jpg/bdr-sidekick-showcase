@@ -6,14 +6,14 @@
 <title>BDR Sidekick — the tool does the admin, you just talk</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Hanken+Grotesk:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --plum:#241526; --plum-2:#1b0f1d; --cream:#F3EFDA;
     --cream-60:rgba(243,239,218,0.62); --cream-35:rgba(243,239,218,0.35);
     --cream-12:rgba(243,239,218,0.12); --cream-06:rgba(243,239,218,0.06);
     --pink:#FF2D8E; --amber:#FFC48A; --green:#7DD9A0;
-    --serif:'Fraunces',Georgia,serif; --sans:'Hanken Grotesk',sans-serif; --mono:'JetBrains Mono',monospace;
+    --serif:'Archivo',sans-serif; --sans:'Hanken Grotesk',sans-serif; --mono:'Space Mono',monospace;
   }
   *{margin:0;padding:0;box-sizing:border-box}
   html{scroll-behavior:smooth}
@@ -38,11 +38,11 @@
   .appicon{width:104px; height:104px; border-radius:23px; flex:none; box-shadow:0 12px 40px rgba(0,0,0,0.4)}
   .eyebrow{opacity:0; animation:rise .7s ease forwards}
   h1{
-    font-family:var(--serif); font-weight:500; font-size:clamp(40px,7vw,84px);
-    line-height:1.02; letter-spacing:-0.02em; margin:22px 0 0; max-width:14ch;
+    font-family:var(--serif); font-weight:800; font-size:clamp(40px,7vw,82px);
+    line-height:1.0; letter-spacing:-0.035em; margin:22px 0 0; max-width:14ch;
     opacity:0; animation:rise .8s ease .1s forwards;
   }
-  h1 em{font-style:italic; color:var(--pink)}
+  h1 em{font-style:normal; color:var(--pink)}
   .lede{
     font-size:clamp(17px,2.2vw,21px); color:var(--cream-60); max-width:54ch; margin-top:26px;
     opacity:0; animation:rise .8s ease .25s forwards;
@@ -58,7 +58,7 @@
 
   section{padding:64px 0; position:relative}
   .tag{display:block; margin-bottom:14px}
-  h2{font-family:var(--serif); font-weight:500; font-size:clamp(28px,4vw,46px); letter-spacing:-0.02em; max-width:18ch}
+  h2{font-family:var(--serif); font-weight:700; font-size:clamp(28px,4vw,44px); letter-spacing:-0.03em; max-width:18ch}
   .sub{color:var(--cream-60); max-width:56ch; margin-top:14px; font-size:17px}
 
   /* reveal */
